@@ -13,7 +13,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css"/>
   </head>
   <!--Шапка сайта-->
 
@@ -36,7 +36,7 @@
         </nav>
 
         <ul class="contact-nav">
-          <li>
+          <li class="contact-info">
             <a class="contact-text" href="mailto:info@devstudio.com">
               <svg class="contact-img" width="16" height="12">
                 <use href="./images/sprite.svg#icon-mail"></use>
@@ -44,7 +44,7 @@
               info@devstudio.com
             </a>
           </li>
-          <li>
+          <li class="contact-info">
             <a class="contact-text" href="tel:+380961111111">
               <svg class="contact-img" width="10" height="16">
                 <use href="./images/sprite.svg#icon-telefon"></use>
@@ -292,7 +292,8 @@
         <div class="subscription">
           <h2 class="subscription-title">Подпишитесь на рассылку</h2>
           <div class="subscription-email">
-          <label><input class="email" type="email" name="email"  placeholder="E-mail" /></label>  
+          <label class="subscription-label">
+            <input class="email" type="email" name="email"  placeholder="E-mail" /></label>  
           <button class="button-email">Подписаться
             <svg class="subscription-icon" width="24" height="24">
               <use href="./images/sprite.svg#icon-icon-send"></use>
